@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10, 10) # Génère un nombre aléatoire
+number = random.randint(-10, 10)  # Génère un nombre aléatoire
 
 if number > 0:
     print(f"{number} is positive")

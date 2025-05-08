@@ -9,3 +9,4 @@ def islower(c):
         # Si 'c' est une lettre minuscule, la fonction retourne True
     return False
     # Sinon, la fonction retourne False
+    

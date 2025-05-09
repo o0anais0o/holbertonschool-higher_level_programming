@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 def fizzbuzz():
-    """Affiche les nombres de 1 à 100 avec les règles FizzBuzz, séparés par un espace."""
+    """
+    Affiche les nombres de 1 à 100 avec les règles FizzBuzz,
+    séparés par un espace.
+    """
     for i in range(1, 101):
         # Si i est un multiple de 3 et de 5, affiche 'FizzBuzz'
         if i % 3 == 0 and i % 5 == 0:

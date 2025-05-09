@@ -10,4 +10,3 @@ if __name__ == "__main__":
         total += int(arg)
     # Affiche la somme totale
     print(total)
-    

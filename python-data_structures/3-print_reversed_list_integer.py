@@ -7,4 +7,4 @@ def print_reversed_list_integer(my_list=[]):
         my_list (list): The list of integers to print.
     """
     for i in range(len(my_list) - 1, -1, -1): #itère de la fin de la liste jusqu'au début
-        print("{}".format(my_list[i])) # garantit que les entiers sont affichés sans conversion explicite en chaînes
+        print("{.d}".format(my_list[i])) # garantit que les entiers sont affichés sans conversion explicite en chaînes

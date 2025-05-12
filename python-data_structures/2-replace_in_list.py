@@ -9,11 +9,10 @@ def replace_in_list(my_list, idx, element):
         element: The new element to insert at the specified index.
 
     Returns:
-        list: The original list if idx is negative or out of range; 
+        list: The original list if idx is negative or out of range;
               otherwise, the modified list with the new element.
     """
     if idx < 0 or idx >= len(my_list):
         return my_list
     my_list[idx] = element
     return my_list
-

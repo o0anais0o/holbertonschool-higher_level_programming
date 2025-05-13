@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
     """
-    Retourne un tuple contenant la longueur de la chaîne et son premier caractère.
+    Retourne un tuple contenant la longueur de la chaîne
+    et son premier caractère.
     Si la chaîne est vide, le premier caractère est None.
     """
     # Calcule la longueur de la chaîne

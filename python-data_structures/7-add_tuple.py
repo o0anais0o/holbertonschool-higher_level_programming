@@ -2,8 +2,8 @@
 def add_tuple(tuple_a=(), tuple_b=()):
     """
     Additionne deux tuples et retourne un nouveau tuple de deux entiers.
-    Si un tuple a moins de deux éléments, les éléments manquants sont considérés
-    comme 0.
+    Si un tuple a moins de deux éléments, les éléments manquants
+    sont considérés comme 0.
     Si un tuple a plus de deux éléments, seuls les deux premiers sont utilisés.
     """
     # Récupère le premier élément de chaque tuple ou 0 si absent

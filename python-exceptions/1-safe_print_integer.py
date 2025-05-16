@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def safe_print_integer(value):
     # Tente d'afficher la valeur comme un entier
     try:

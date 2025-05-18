@@ -7,8 +7,7 @@ This module includes a function to print 'My name is <first name> <last name>'
 
 Features:
 say_my_name(first_name, last_name=""): Prints 'My name is <first name>
-<last name>'
-and returns None
+<last name>' and returns None
 """
 
 

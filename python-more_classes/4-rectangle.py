@@ -5,7 +5,7 @@ Ce module définit une classe Rectangle qui représente un rectangle.
 
 
 class Rectangle:
-    """Une classe Rectangle qui définit un rectangle"""
+    """ Une classe Rectangle qui définit un rectangle"""
 
     def __init__(self, width=0, height=0):
         """
@@ -115,15 +115,15 @@ class Rectangle:
         Renvoie une chaîne vide si la largeur ou la hauteur est égale à 0.
         """
 
-        # Vérifie si la largeur ou la hauteur est égale à 0
+        # Vérifie si la largeur ou la hauteur
         if self.width == 0 or self.height == 0:
             return ""
         # Construire le rectangle ligne par ligne :
         # ('#' * self.width + '\n') * (self.height - 1) :
-        # crée toutes les lignes.
+        # crée toutes les lignes
         # sauf la dernière, chacune se terminant par un saut de ligne.
         # Le dernier + '#'*self.width :
-        # ajoute la dernière ligne sans saut de ligne.
+        # ajoute la dernière ligne sans saut de ligne
         # pour éviter une ligne vide supplémentaire à la fin.
         return ('#' * self.width + '\n') * (self.height - 1) + '#' * self.width
 
@@ -139,8 +139,5 @@ class Rectangle:
         ClassName(width, height)
         """
 
-        # Renvoie « nom_module.nom_classe objet à adresse_classe » dans output.
-        return (
-            f"<{self.__module__}.{self.__class__.__name__}"
-            f" object at {hex(id(self))}>"
-        )
+        # Renvoie « class_name object(width, height » dans la sortie
+        return (f"{self.__class__.__name__}{self.width, self.height}")

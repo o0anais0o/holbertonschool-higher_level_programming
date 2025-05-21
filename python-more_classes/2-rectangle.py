@@ -89,7 +89,7 @@ class Rectangle:
         Calcule et renvoie le périmètre du rectangle.
 
         Remarque :
-        circumstance est une méthode d'instance publique.
+        perimeter est une méthode d'instance publique.
 
         Renvoie :
         int : aire (largeur + hauteur) * 2

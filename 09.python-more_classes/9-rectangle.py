@@ -7,8 +7,12 @@ Ce module définit une classe Rectangle qui représente un rectangle.
 class Rectangle:
     """ A class Rectangle that defines a rectangle"""
 
+    # Compte combien d’objets Rectangle ont été créés et non détruits.
+    # Ce nombre augmente à chaque nouvelle création et 
+    # diminue à chaque suppression.
     number_of_instances = 0
 
+    # Symbole utilisé pour afficher le rectangle (par défaut, le caractère #).
     print_symbol = "#"
 
     def __init__(self, width=0, height=0):

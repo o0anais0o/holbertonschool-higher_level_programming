@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module MyList
 Classe qui hérite de list et affiche la liste triée.
 """
 

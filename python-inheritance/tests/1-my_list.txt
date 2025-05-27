@@ -16,13 +16,13 @@
 >>> MyList([2, 21, 6, -6]).print_sorted()
 [-6, 2, 6, 21]
 
-# Checks the append() function
+# Vérifie la fonction append()
 >>> l = MyList([1, 2, 3])
 >>> l.append(4)
 >>> l
 [1, 2, 3, 4]
 
-# Checks if the initial list had changed
+# Vérifie si la liste initiale avait changé
 >>> l = MyList([5, 2, 8])
 >>> l.print_sorted()
 [2, 5, 8]

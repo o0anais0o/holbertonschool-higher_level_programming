@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Module définissant la classe Rectangle qui hérite de BaseGeometry."""
 
 

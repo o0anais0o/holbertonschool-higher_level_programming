@@ -1,0 +1,31 @@
+# Tests pour la classe BaseGeometry
+
+# 1. Test avec une valeur entière positive (doit passer sans erreur)
+#    integer_validator("my_int", 12)
+
+# 2. Test avec une autre valeur entière positive (doit passer sans erreur)
+#    integer_validator("width", 89)
+
+# 3. Test avec une valeur non entière (doit lever TypeError)
+#    integer_validator("name", "John")
+#    Attendu : TypeError: name must be an integer
+
+# 4. Test avec la valeur zéro (doit lever ValueError)
+#    integer_validator("age", 0)
+#    Attendu : ValueError: age must be greater than 0
+
+# 5. Test avec une valeur négative (doit lever ValueError)
+#    integer_validator("distance", -4)
+#    Attendu : ValueError: distance must be greater than 0
+
+# 6. Test avec une autre valeur non entière (float) (doit lever TypeError)
+#    integer_validator("height", 3.14)
+#    Attendu : TypeError: height must be an integer
+
+# 7. Test avec un nom différent pour vérifier le message d'erreur
+#    integer_validator("largeur", "abc")
+#    Attendu : TypeError: largeur must be an integer
+
+# 8. Test de la méthode area (doit lever Exception)
+#    area()
+#    Attendu : Exception: area() is not implemented

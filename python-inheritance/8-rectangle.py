@@ -2,6 +2,9 @@
 """Module définissant la classe Rectangle qui hérite de BaseGeometry."""
 
 
+BaseGeometry = __import__(‘7-base_geometry’).BaseGeometry
+
+
 class BaseGeometry:
     """Classe de base pour la géométrie."""
 
@@ -26,3 +29,6 @@ class Rectangle(BaseGeometry):
         self.integer_validator("height", height)
         self.__width = width
         self.__height = height
+
+    # Test pour vérifier l'héritage
+    print(issubclass(Rectangle, BaseGeometry))  # Affichera True

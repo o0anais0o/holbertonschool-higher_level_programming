@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Ce module définit une classe vide BaseGeometry.
+"""
+
 
 class BaseGeometry:  # Le mot-clé class sert à définir la classe.
     pass

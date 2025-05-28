@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-
+Définit une classe Rectangle qui hérite de BaseGeometry.
 """
 
 

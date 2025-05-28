@@ -12,9 +12,11 @@ class Rectangle(BaseGeometry):
 
     def __init__(self, width, height):
         self.integer_validator("width", width)
+        # Vérifie que width est un entier > 0
         self.integer_validator("height", height)
-        self.__width = width
-        self.__height = height
+        # Vérifie que height est un entier > 0
+        self.__width = width  # Attribut privé pour la largeur
+        self.__height = height  # Attribut privé pour la hauteur
 
     def area(self):
         """Calcule et retourne l'aire du rectangle."""

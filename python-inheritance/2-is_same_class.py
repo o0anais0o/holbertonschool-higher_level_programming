@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Vérifie si obj est exactement une instance de a_class
 et pas une sous-classe.

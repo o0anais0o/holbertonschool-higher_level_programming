@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Ce module fournit la fonction is_kind_of_class qui vérifie
 si un objet est une instance d'une classe donnée ou de ses parents.

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Fonction qui renvoie True si l'objet est une instance d'une classe héritée
 (directement ou indirectement) de la classe spécifiée ; sinon False.

@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-Classe qui hérite de list et affiche la liste triée.
-"""
+
+""" Classe qui hérite de list et affiche la liste triée. """
 
 
 class MyList(list):

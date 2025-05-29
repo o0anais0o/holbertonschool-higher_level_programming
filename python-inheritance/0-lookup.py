@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""
+
+""" 
 Fonction lookup qui retourne la liste des attributs et méthodes d’un objet.
 """
 

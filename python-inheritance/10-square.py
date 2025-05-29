@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" Module qui définit la classe Square, héritée de Rectangle. """
+"""Module qui définit la classe Square, héritée de Rectangle."""
 
 # On importe la classe Rectangle du fichier 9-rectangle.py
 Rectangle = __import__('9-rectangle').Rectangle
@@ -8,7 +8,7 @@ Rectangle = __import__('9-rectangle').Rectangle
 
 # Définition de la classe Square qui hérite de Rectangle.
 class Square(Rectangle):
-    """ Classe qui représente un carré, héritant de Rectangle. """
+    """Classe qui représente un carré, héritant de Rectangle."""
     # Constructeur de Square, prend un seul paramètre : size.
     def __init__(self, size):
         """

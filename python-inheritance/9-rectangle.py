@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Définit une classe Rectangle qui hérite de BaseGeometry. """
+"""Définit une classe Rectangle qui hérite de BaseGeometry."""
 
 # On importe la classe Rectangle du fichier 7-rectangle.py
 BaseGeometry = __import__('7-base_geometry').BaseGeometry

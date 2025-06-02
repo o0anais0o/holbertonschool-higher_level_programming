@@ -12,9 +12,9 @@ Fonction :
 
 import json
 
+
 def to_json_string(my_obj):
     """
-        
     Convertit un objet Python en une chaîne JSON.
 
     Args:

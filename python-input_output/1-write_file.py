@@ -24,5 +24,4 @@ def write_file(filename="", text=""):
         Exception: Si l'ouverture ou l'écriture dans le fichier échoue.
     """
     with open(filename, "w") as f:
-        f.write(text)
         return f.write(text)

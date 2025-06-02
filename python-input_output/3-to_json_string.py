@@ -10,7 +10,7 @@ Fonction :
 """
 
 
-import json
+import json  # Importe le module json pour sérialisation et désérialisation
 
 
 def to_json_string(my_obj):
@@ -28,5 +28,7 @@ def to_json_string(my_obj):
     Raises:
         TypeError: Si l'objet n'est pas sérialisable en JSON.
     """
+    # Convertit l'objet Python en une chaîne JSON
     json_str = json.dumps(my_obj)
+    # Retourne la chaîne JSON résultante
     return json_str

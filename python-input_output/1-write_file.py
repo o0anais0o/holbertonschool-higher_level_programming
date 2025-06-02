@@ -23,5 +23,9 @@ def write_file(filename="", text=""):
     Raises:
         Exception: Si l'ouverture ou l'écriture dans le fichier échoue.
     """
+    # Ouvre le fichier en mode écriture ("w")
+    # Si le fichier existe, il sera écrasé ; sinon, il sera créé
     with open(filename, "w") as f:
+        # Écrit le texte dans le fichier et retourne
+        # le nombre de caractères écrits
         return f.write(text)

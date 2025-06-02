@@ -26,5 +26,9 @@ def append_write(filename="", text=""):
     Raises:
         Exception: Si l'ouverture ou l'écriture dans le fichier échoue.
     """
+    # Ouvre le fichier en mode ajout ("a")
+    # Si le fichier n'existe pas, il sera créé
     with open(filename, "a") as f:
+        # Ajoute le texte à la fin du fichier et retourne
+        # le nombre de caractères ajoutés
         return f.write(text)

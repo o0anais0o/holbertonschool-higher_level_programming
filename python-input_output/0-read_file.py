@@ -23,5 +23,8 @@ def read_file(filename=""):
         Exception:
         Pour toute autre erreur liée à l'ouverture ou la lecture du fichier.
     """
+    # Ouvre le fichier en mode lecture ("r")
     with open(filename, "r") as f:
+        # Lit tout le contenu du fichier et l'affiche à l'écran sans
+        # ajouter de saut de ligne supplémentaire
         print(f.read(), end="")

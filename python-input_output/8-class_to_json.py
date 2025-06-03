@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Fonction utilitaire pour obtenir une description d'objet sérialisable en JSON.
+"""
+
 
 def class_to_json(obj):
     """

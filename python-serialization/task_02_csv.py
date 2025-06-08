@@ -1,4 +1,4 @@
-# task_02_csv.py
+#!/usr/bin/python3
 
 import csv   # Module pour lire les fichiers CSV
 import json  # Module pour écrire les fichiers JSON

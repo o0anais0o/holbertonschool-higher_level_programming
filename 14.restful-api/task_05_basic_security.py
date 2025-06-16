@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 
-
 # Importation des modules nécessaires
 from flask import Flask, jsonify, request
 from flask_httpauth import HTTPBasicAuth

@@ -1,4 +1,4 @@
--- Répertorie tous les privilèges des utilisateurs MySQL user_0d_1 et user_0d_2 sur localhost
-
-SHOW GRANTS FOR 'user_0d_1'@'localhost';
-SHOW GRANTS FOR 'user_0d_2'@'localhost';
+-- Crée l'utilisateur MySQL root@localhost avec tous les privilèges et le mot de passe 'root'
+CREATE USER IF NOT EXISTS 'root'@'localhost' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;

@@ -1,5 +1,5 @@
--- Répertorie toutes les villes avec leur état, en utilisant une seule instruction SELECT et un JOIN
-SELECT cities.id, cities.name, states.name AS state_name
+-- Répertorie toutes les villes contenues dans la base de données hbtn_0d_usa
+SELECT cities.id, cities.name, states.name
 FROM cities
 JOIN states ON cities.state_id = states.id
 ORDER BY cities.id;

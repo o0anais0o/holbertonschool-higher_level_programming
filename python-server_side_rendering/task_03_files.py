@@ -4,7 +4,7 @@ import csv
 
 app = Flask(__name__)
 
-# Helper to read from JSON file
+# Aide à la lecture du fichier JSON
 def read_json_file(file_path):
     try:
         with open(file_path, "r") as file:
@@ -12,7 +12,7 @@ def read_json_file(file_path):
     except Exception as e:
         return []
 
-# Helper to read from CSV file
+# Aide à la lecture à partir d'un fichier CSV
 def read_csv_file(file_path):
     try:
         with open(file_path, newline='') as file:
@@ -44,13 +44,14 @@ def display_products():
         error = "Wrong source. Please specify 'json' or 'csv'."
         return render_template("product_display.html", error=error)
 
+    # Si un ID est fourni, filtrer les produits
     if product_id is not None:
         filtered = [p for p in products if p["id"] == product_id]
-        if not filtered:
-            error = f"Product with ID {product_id} not found."
-            products = []
-        else:
-            products = filtered
+    if not filtered:
+        error = f"Product not found"
+        products = []  # Aucune donnée produit à afficher
+    else:
+        products = filtered
 
     return render_template("product_display.html", products=products, error=error)
 
